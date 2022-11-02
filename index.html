@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Tunnel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <canvas id="canvas1" class="canvas1"></canvas>
+     <div id="control">
+         
+         <div>
+             <input id="numParticles" type="range" min="10" max="200" step="5" value="10">
+             <label id="numParticlesLabel" for="range">Num of Particles</label>
+         </div>
+      <div>
+             <input id="speed" type="range" min="10" max="1000" step="10" value="100">
+             <label id="speedLabel" for="range">Refresh Rate: </label>
+         </div>
+         <div>
+             <input id="velSlider" type="range" min="1" max="15" step="1" value="3">
+             <label id="velLabel" for="range">Radial Speed: </label>
+
+         </div>
+    
+     </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
